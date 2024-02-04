@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#F3F5FC;
+}
+
+.logo__img{
+    width: 120px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 680px;
+    position: relative;
+    top: 36px;
+}
+
+textarea{
+    height: 100%;
+    font-size: 32px;
+    color: #0A3871;
+    border: none;
+    background-color: #F3F5FC;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.aviso__content{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.aviso__text{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.btn__content{
+    display: flex;
+    gap: 24px;
+}
+
+.btn__cripto{
+    padding: 24px;
+    width: 328px;
+    border-radius: 24px;
+}
+
+.btn__cripto:nth-child(1){
+    background-color: #0A3871;
+    color: #F3F5FC;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__cripto:nth-child(2){
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.texto__resultante{
+    margin-top: 40px;
+    width: 400px;
+    height: 680px;
+    border-radius: 32px;
+    background-color: #fff;
+    box-shadow: 0px 24px 32px -8px #00000030;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    word-wrap: break-word;
+    overflow: auto;
+
+}
+
+.resultado{
+    font-size: 24px;
+    font-family: 'Inter' sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    max-height: 680px;
+}
+
+.img__texto__resultante{
+    width: 335px;
+    height: 305px;
+    background-image: url(../assets/search.png);
+}
+
+.paragrafos__textos__resultantes{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #495057;
+}
+
+.btn__copiar{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    padding: 24px;
+    gap: 8px;
+    border: 1px soldid #0A3871;
+    border-radius: 24px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+   
+}

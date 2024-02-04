@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Codificar ou Decodificar</title>
+   
+</head>
+<body>
+
+    <section class="logoimg">
+        <img src="./assets/Vector.png" alt="">
+    </section>
+
+    <main>  
+
+        <textarea name="texto" id="meuTexto" cols="30" rows="10" placeholder="Digite seu texto" maxlength="150" required></textarea>
+
+        <div class="aviso">
+            <img src="./assets/exclamation.png" alt="">
+            <p class="aviso__text">Apenas letras maiúsculas e sem acento.</p>
+        </div>
+
+        <div class="btn__content">
+            <button onclick="btnCriptografia()" class="btn__cripto">Cripitografar</button>
+            <button onclick="btnDescriptografia()" class="btn__cripto">Descriptografar</button>
+        </div>
+        
+    </main>
+
+    <section class="texto__resultante">
+
+        <figure class="figure__disabled">
+            <img class="img__texto__resultante" src="./assets/search.png" alt="">
+            <figcaption class="paragrafos__textos__resultantes">
+                Nenhuma mensagem.
+                Escreva algo para cripitografar ou descriptografar.
+            </figcaption>
+        </figure>
+
+        <p class="resultado"></p>
+        
+        <button class="btn__copiar">Copiar</button>
+    </section>
+
+
+</body>
+<script src="./js/app.js" defer></script>
+</html>
